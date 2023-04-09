@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <style>
+        button{
+        border: 5px solid olive;
+        color: white;
+        height: 50px;
+        width: 150px;
+        background-color: blueviolet;
+        cursor: pointer;
+        
+        border-radius: 20px;
+        
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        font-size: 25px;
+
+    }
+    span{
+        color: rgba(10, 58, 58, 0.788);
+        font-size: 50px;
+        
+    }
+    div{
+        box-sizing: border-box;
+        border: 4px solid black;
+        width: 800px;
+        margin-left: 30px;
+        padding: 20px;
+        background-color: rgb(178, 245, 223);
+        border-radius: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Divide</button>
+    <br><br>
+    <span id="sum-el">Sum:</span>
+    <script src="calc.js"></script>
+</div>
+</body>
+</html>

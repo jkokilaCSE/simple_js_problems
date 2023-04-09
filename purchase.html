@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <style>
+    img{
+        border-radius: 20px;
+        border: 10px solid pink;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 60px;
+    }    
+    button{
+        border: 5px solid olive;
+        color: white;
+        height: 50px;
+        width: 150px;
+        background-color: blueviolet;
+        cursor: pointer;
+        margin-left: 100px;
+        margin-top: -50px;
+        border-radius: 20px;
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 25px;
+
+    }
+    button:hover{
+        color: black;
+        width: 230px;
+        height: 55px;
+       
+        transition: width 2s, height 3s;
+    }
+    p{
+        color: darkgreen;
+        border: 3px solid rgb(102, 84, 52);
+        height: auto;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        }
+        div{
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practice Session</h1>
+    <p>Flower</p>
+    <img src="C:\Users\Admin\Desktop\js\practice\images.jpg" alt="">
+    <button id="flower1" onclick="errormsg()"> Purchase</button>
+    <div id="error"></div> 
+    <script src="purchase.js"></script>
+</body>
+</html>
