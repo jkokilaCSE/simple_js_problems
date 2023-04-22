@@ -1,0 +1,13 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    color: #130e0f;
+}
+h1{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#container{
+    width:100%;
+}
